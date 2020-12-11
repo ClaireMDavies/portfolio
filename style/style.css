@@ -1,6 +1,19 @@
 .display-4 {
     color: green;
 }
-.body {
-    background-color:lightgreen;
+
+.hero-image {
+    background-image: url("assets/meadow.jpg"); /* The image used */
+    background-color: lightgreen; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: left; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+
+  }
+  
+.container {
+    background-color: white;
+    
 }
