@@ -2,6 +2,9 @@
     color: green;
 }
 
+.nav-link {
+    color:white;
+}
 
 .hero-image {
     background-image: url("../assets/meadow.jpg"); /* The image used */
@@ -15,6 +18,3 @@
     
 }
 
-.col-sm-12 {
-    float: inline-end;
-}
