@@ -1,3 +1,13 @@
+body {
+
+    background: url("../assets/meadow.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 90px;
+}
+
 .display-4 {
     color: green;
 }
@@ -6,12 +16,6 @@
     color:white;
 }
 
-.hero-image {
-    background-image: url("../assets/meadow.jpg"); /* The image used */
-    background-color: lightgreen; /*Used if the image is unavailable*/
-    height: 100%; /*100% to ensure it tracks with any resizing*/
-    background-position: left; /* Center the image */
-}
   
 .container {
     background-color: white;
@@ -22,5 +26,6 @@
     text-align: center;
 }
 
-
-    
+.accordion-button {
+    color: 
+}
