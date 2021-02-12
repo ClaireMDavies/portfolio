@@ -16,7 +16,6 @@ body {
     color:white;
 }
 
-  
 .container {
     background-color: white;
     
@@ -26,6 +25,7 @@ body {
     text-align: center;
 }
 
-.accordion-button {
-    color: 
+
+#headshot {
+    padding-bottom: 10px;
 }
