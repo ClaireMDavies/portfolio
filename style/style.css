@@ -47,3 +47,8 @@ body {
 #contact-buttons {
     padding-bottom: 10px;
 }
+
+#pdf-download {
+    padding-bottom: 10px;
+    float:none; 
+}
