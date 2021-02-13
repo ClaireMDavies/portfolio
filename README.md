@@ -22,7 +22,9 @@ Screenshots of the pages follow below: <br>
 - Bootstrap CSS library
 
 ## License <br>
-MIT
+Licensed under the [MIT License](LICENSE).
+
+
 
 ## Contact information
 Claire Davies: [Github](https://github.com/ClaireMDavies) <br>
