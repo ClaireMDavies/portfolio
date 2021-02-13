@@ -5,7 +5,7 @@ Creating a three page website with pages giving some background information abou
 
 ## Live link to the deployed portfolio <br>
 
-The live site is found at [GithubPages]: (https://clairemdavies.github.io/portfolio/) <br>
+The live site is found at [GithubPages](https://clairemdavies.github.io/portfolio/) <br>
 
 ## Screenshots of the portfolio <br>
 
