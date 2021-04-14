@@ -44,11 +44,24 @@ body {
     padding-bottom: 10px;
 }
 
-#contact-buttons {
+.contact-buttons {
     padding-bottom: 10px;
+    text-align: center;
 }
 
 #pdf-download {
     padding-bottom: 10px;
     float:none; 
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card {
+    padding-bottom: 5px;
+}
+
+.jumbotron {
+    padding-bottom: 10px;
 }
