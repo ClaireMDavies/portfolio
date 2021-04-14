@@ -52,6 +52,7 @@ body {
 #pdf-download {
     padding-bottom: 10px;
     float:none; 
+    text-align: center;
 }
 
 .card-body{
@@ -64,4 +65,8 @@ body {
 
 .jumbotron {
     padding-bottom: 10px;
+}
+
+.bio{
+    text-align: center;
 }
