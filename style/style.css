@@ -71,3 +71,16 @@ body {
 .bio{
     text-align: center;
 }
+.my-4 {
+    color:#198754;
+   
+}
+
+hr:not([size]) {
+    height: 5px;
+}
+
+.btn {
+    box-shadow: 0 4px 8px 0 rgba(2, 121, 28, 0.2), 0 6px 20px 0 rgba(5, 65, 37, 0.19);
+}
+
