@@ -23,9 +23,9 @@ The live site is found at [GithubPages](https://clairemdavies.github.io/portfoli
 ## Screenshots
 
 Screenshots of the pages follow below: 
-![aboutMe](assets/About-me-screenshot.png)
+![aboutMe](assets/bio.png)
 
-![contact](assets/contact-me-screenshot.png ) 
+![contact](assets/contact.png ) 
 
 ![portfolio](assets/portfolio.png) 
 
@@ -42,4 +42,4 @@ Licensed under the [MIT License](LICENSE).
 Claire Davies:  
 
 - [Github](https://github.com/ClaireMDavies) 
-- [Email](claire.davies@junitech.com)
+- [Email](mailto:claire.davies@junitech.com)
