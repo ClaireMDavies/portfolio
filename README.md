@@ -23,11 +23,13 @@ The live site is found at [GithubPages](https://clairemdavies.github.io/portfoli
 ## Screenshots
 
 Screenshots of the pages follow below: 
-![aboutMe](assets/bio.png)
+![aboutMe](assets/index-page.png)
 
-![contact](assets/contact.png ) 
+![contact](assets/contact-page.png ) 
 
-![portfolio](assets/portfolio.png) 
+![portfolio](assets/portfolio-page.png) 
+
+![responsive](assets/responsive.png)
 
   
 ## License 
