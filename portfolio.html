@@ -2,170 +2,229 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--Bootstrap link added-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link href="style/style.css" rel="stylesheet">
-  <title>Portfolio</title>
-  <link rel="icon" type="image/png" href="assets/green.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap link added-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="style/style.css" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/green.png">
 </head>
 
 <body>
-  <nav class="navbar  navbar-expand-lg navbar-dark bg-success">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Claire Davies</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link " href="index.html">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--added jumbotron-->
- 
-  <div class="container">
-    <div class="row">
-        <div class="col-sm">
-          <div class="jumbotron">
-            <h1 class="display-4">Portfolio</h1>
-            <hr class="my-4">
-            <!--Added in responsive row and column gutters-->
-            <div class="container">
-                <div class="accordion accordion-flush" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapse-indicator-chevron" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"  aria-expanded="true" aria-controls="collapseOne">
-                            <strong>Work Day Scheduling app</strong>
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body card">
-                            <div class="card-body">
-                          <img src="assets/screenshot scheduler2 (2).png" class="img-fluid" width=500 alt="day scheduler screenshot"> 
-                          <p>This application allows the user to plan events between standard working hours <br>
-                          
-                                <a href="https://github.com/ClaireMDavies/work-day-scheduler-app" class="pe-auto link-success">Repository</a><br>
-                                <a href="https://clairemdavies.github.io/work-day-scheduler-app/" class="pe-auto link-success">Deployed application</a>
-                            </p>
-                        </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <strong>Weather Dashboard App </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body card">
-                            <div class="card-body">
-                           <img src="assets/weather-dashboard-02 (2).png" class="img-fluid" width=500 alt="screenshot of weather app"> 
-                           <p>An application that made use of 2 API's to allow the user to search for weather and a 5 day forecast at any location across the globe. <br>
-                          
-                                <a href="https://github.com/ClaireMDavies/weather-dashboard" class="pe-auto link-success">Repository</a><br>
-                                <a href="https://clairemdavies.github.io/weather-dashboard/" class="pe-auto link-success">Deployed application</a>
-                            </p> 
-                        </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <strong>eat in N drink in</strong>
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body card">
-                            <div class="card-body">
-                           <img src="assets/eatinNdrinkin (2).png" class="img-fluid" width=500 alt="screenshot of recipe and drink pairing app">
-                           <p> An application that was the result of 4 coders (including myself) collaborating to make an application that was able to take an ingredient (plus any exclusions) and return recipe ideas, and drinks pairings.  
-                            It made use of 2 API's. <br>
-                            
-                                <a href="https://github.com/ClaireMDavies/eat-in-n-drink-in" class="pe-auto link-success">Repository</a><br>
-                                <a href="https://clairemdavies.github.io/eat-in-n-drink-in/" class="pe-auto link-success">Deployed application</a>
-                            </p>
-                        </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              <strong>Tech Blog </strong>
-                          </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                          <div class="accordion-body card">
-                              <div class="card-body">
-                             <img src="assets/tech-blog.png" class="img-fluid" width=500 alt="screenshot tech blog"> 
-                             <p>A blog style webpage allowing people to sign up, post articles, and comment on other people's articles  <br>
-                             
-                                  <a href="https://github.com/ClaireMDavies/tech-blog" class="pe-auto link-success">Repository</a><br>
-                                  <a href="https://obscure-escarpment-55372.herokuapp.com/" class="pe-auto link-success">Deployed application</a>
-                              </p>
-                             </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFive">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                              <strong>Code Crowd</strong>
-                          </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                          <div class="accordion-body card">
-                              <div class="card-body">
-                             <img src="assets/code-crowd.png" class="img-fluid" width=500 alt="screenshot of Code Crowd">
-                             <p> A social media application aimed at coders, to make contacts with other coders, being able to search on people's skills to make collaborations, and be able to add images, files and screenshots to posts.  Also an ability to comment on others posts <br>
-                             
-                                  <a href="https://github.com/ClaireMDavies/Code_Crowd" class="pe-auto link-success">Repository</a><br>
-                                  <a href="https://code-crowd-cmd.herokuapp.com/" class="pe-auto link-success">Deployed application</a>
-                                </p> 
-                          </div>
-                          </div>
-                        </div>
-                      </div>
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Claire Davies</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--added jumbotron-->
 
-                    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="jumbotron">
+                    <h1 class="display-4">Portfolio</h1>
+                    <hr class="my-4">
+                    <!--Added in responsive row and column gutters-->
+                    <div class="container">
+                        <div class="accordion accordion-flush" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapse-indicator-chevron" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        <strong>Work Day Scheduling app</strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body card">
+                                        <div class="card-body">
+                                            <img src="assets/screenshot scheduler2 (2).png" class="img-fluid" width=500
+                                                alt="day scheduler screenshot">
+                                            <p>This application allows the user to plan events between standard working
+                                                hours. With each hourly timeslot being colour coded, as to whether it is
+                                                in the past, present or future. Any inputs were saved to local storage
+                                                <br>
+
+
+                                            </p>
+                                            <a href="https://github.com/ClaireMDavies/work-day-scheduler-app"
+                                                class="btn btn-success"
+                                                title="github.com/ClaireMDavies/work-day-scheduler-app">Repository</a>
+                                            <a href="https://clairemdavies.github.io/work-day-scheduler-app/"
+                                                class="btn btn-success"
+                                                title="clairemdavies.github.io/work-day-scheduler-app">Deployed
+                                                application</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <strong>Weather Dashboard App </strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body card">
+                                        <div class="card-body">
+                                            <img src="assets/weather-dashboard-02 (2).png" class="img-fluid" width=500
+                                                alt="screenshot of weather app">
+                                            <p>An application that made use of 2 3rd party API's to allow the user to search for
+                                                weather and a 5 day forecast at any location across the globe, and store those locations within local storage. <br>
+
+
+                                            </p>
+                                            <a href="https://github.com/ClaireMDavies/weather-dashboard"
+                                                class="btn btn-success"
+                                                title="github.com/ClaireMDavies/weather-dashboard">Repository</a>
+                                            <a href="https://clairemdavies.github.io/weather-dashboard/"
+                                                class="btn btn-success"
+                                                title="clairemdavies.github.io/weather-dashboard">Deployed
+                                                application</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <strong>eat in N drink in</strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body card">
+                                        <div class="card-body">
+                                            <img src="assets/eatinNdrinkin (2).png" class="img-fluid" width=500
+                                                alt="screenshot of recipe and drink pairing app">
+                                            <p> An application that was the result of 4 coders (including myself)
+                                                collaborating to make an application that was able to take an ingredient
+                                                (plus any exclusions) and return recipe ideas, along with the option to add a drinks pairing.
+                                                It made use of 2 3rd party API's. <br>
+
+
+                                            </p>
+                                            <a href="https://github.com/ClaireMDavies/eat-in-n-drink-in"
+                                                class="btn btn-success"
+                                                title="github.com/ClaireMDavies/eat-in-n-drink-in">Repository</a>
+                                            <a href="https://clairemdavies.github.io/eat-in-n-drink-in/"
+                                                class="btn btn-success"
+                                                title="clairemdavies.github.io/eat-in-n-drink-in">Deployed
+                                                application</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <strong>Tech Blog </strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body card">
+                                        <div class="card-body">
+                                            <img src="assets/tech-blog.png" class="img-fluid" width=500
+                                                alt="screenshot tech blog">
+                                            <p>A blog style full-stack applicattion, creating a webpage that allows people to sign up, post articles, and
+                                                comment on other people's articles, as well as updating and deleting your own posts/comments.   <br>
+
+
+                                            </p>
+                                            <a href="https://github.com/ClaireMDavies/tech-blog" class="btn btn-success"
+                                                title="github.com/ClaireMDavies/tech-blog">Repository</a>
+                                            <a href="https://obscure-escarpment-55372.herokuapp.com/"
+                                                class="btn btn-success"
+                                                title="obscure-escarpment-55372.herokuapp.com">Deployed application</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        <strong>Code Crowd</strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body card">
+                                        <div class="card-body">
+                                            <img src="assets/code-crowd.png" class="img-fluid" width=500
+                                                alt="screenshot of Code Crowd">
+                                            <p> A group project where we  created a social media application aimed at coders, to make contacts with other
+                                                coders, being able to search on people's skills to make collaborations,
+                                                and be able to add images, files and screenshots to posts. Also an
+                                                ability to comment on others posts <br>
+
+
+                                            </p>
+                                            <a href="https://github.com/ClaireMDavies/Code_Crowd"
+                                                class="btn btn-success"
+                                                title="github.com/ClaireMDavies/Code_Crowd">Repository</a>
+                                            <a href="https://code-crowd-cmd.herokuapp.com/" class="btn btn-success"
+                                                title="code-crowd-cmd.herokuapp.com">Deployed application</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
                 </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
     </div>
 
-  
 
-  <!--added navbar at bottom with social media links-->
-  <nav class="navbar fixed-bottom navbar-dark bg-success">
-    <a class="navbar-brand" href="https://twitter.com/C_M_Davies"><img src="assets/twitter.png" alt="twitter icon"></a>
-    <a class="navbar-brand" href="https://www.facebook.com/claire.davies.7106"> <img src="assets/facebook.png" alt="facebook icon"></a>
-    <a class="navbar-brand" href="https://www.linkedin.com/in/claire-davies-53835182/"><img src="assets/linkedin.png" alt="linkedin icon"></a>
-    <a class="navbar-brand" href="https://github.com/ClaireMDavies"><img src="assets/github.png" alt="github icon"></a>    
-  </nav>
 
-  <!--Added js link to enable popper-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
+    <!--added navbar at bottom with social media links-->
+    <nav class="navbar fixed-bottom navbar-dark bg-success">
+        <a class="navbar-brand" href="https://twitter.com/C_M_Davies"><img src="assets/twitter.png"
+                alt="twitter icon"></a>
+        <a class="navbar-brand" href="https://www.facebook.com/claire.davies.7106"> <img src="assets/facebook.png"
+                alt="facebook icon"></a>
+        <a class="navbar-brand" href="https://www.linkedin.com/in/claire-davies-53835182/"><img
+                src="assets/linkedin.png" alt="linkedin icon"></a>
+        <a class="navbar-brand" href="https://github.com/ClaireMDavies"><img src="assets/github.png"
+                alt="github icon"></a>
+    </nav>
+
+    <!--Added js link to enable popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
