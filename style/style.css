@@ -8,18 +8,6 @@ body {
     margin-bottom: 90px;
 }
 
-/* body::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(28, 85, 2, 0.7);
-    opacity:0.3;
-} */
-
-
 
 .display-4 {
     color: green;
@@ -108,5 +96,9 @@ hr:not([size]) {
 
 .btn {
     box-shadow: 0 4px 8px 0 rgba(2, 121, 28, 0.2), 0 6px 20px 0 rgba(5, 65, 37, 0.19);
+    
 }
 
+.portfolio-btn {
+    margin-bottom: 5px;
+}
