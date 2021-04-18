@@ -11,6 +11,7 @@ Creating a three page website with pages giving some background information abou
   - [Deployed Portfolio](##deployed-portfolio)
   - [Screenshots](##screenshots)
   - [License](##license)
+  - [Credits](##credits)
   - [Technologies Used](##technologies-used)
   - [Contact Information](##contact-information)
 
@@ -34,6 +35,9 @@ Screenshots of the pages follow below:
   
 ## License 
 Licensed under the [MIT License](LICENSE).
+
+## Credits
+Background photo created by lcd2020 - ![www.freepik.com](https://www.freepik.com/free-photo/sunny-defocused-green-nature-background-abstract-bokeh-effect-es-element-your-design_8685705)
 
 ## Technologies used 
 - HTML
